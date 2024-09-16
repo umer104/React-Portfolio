@@ -3,13 +3,14 @@ import { Button } from '../ui/button'
 import { FiDownload } from 'react-icons/fi'
 import Socials from '../Socials'
 import Photo from '../Photo'
+import Stats from '../Stats'
 
 function Home() {
   return (
-    <section>
-      <div className='container mx-auto h-full'>
-        <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-0'>
-          <div className='text-center xl:text-left'>
+    <section className='h-full'>
+      <div className='container mx-auto h-full'>  
+        <div className='flex flex-col xl:flex-row items-center justify-between'>
+          <div className='text-center xl:text-left order-2 xl:order-none'>
             <span className='text-xl'>DevOps Engineer</span>
             <h1 className='h1 mb-6'>
               Hello I'm <br /> <span className='text-destructive'>Umer Akmal</span>
@@ -31,11 +32,12 @@ function Home() {
               </div>
             </div>
           </div>
-          <div>
+          <div className='order-1 xl:order-none mb-8 xl:mb-0'>
             <Photo />
           </div>
         </div>
       </div>
+      <Stats />
     </section>
   )
 }
