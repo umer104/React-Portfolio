@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap'
 
 function Photo() {
   return (
-    <div className='w-full h-full relative'>
+    <div className='w-full h-full'>
         <motion.div
          initial={{opacity: 0}}
          animate={{
@@ -18,7 +18,7 @@ function Photo() {
              opacity: 1,
              transition: { delay: 2.4, duration: 0.3, ease: 'easeInOut' },
             }}
-            className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute'>
+            className='w-[248px] h-[248px] xl:w-[398px] xl:h-[398px] mix-blend-lighten absolute'>
                 <Image 
                   src='/assets/pic.png'
                   priority
@@ -29,7 +29,7 @@ function Photo() {
                 />
             </motion.div>
 
-            <motion.svg className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
+            <motion.svg className="w-[250px] xl:w-[406px] h-[250px] xl:h-[406px]"
             fill="transparent"
             viewBox="0 0 506 506"
             xmlns="http://www.w3.org/2000/svg"

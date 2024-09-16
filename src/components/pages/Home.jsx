@@ -26,7 +26,7 @@ function Home() {
                 <FiDownload className='text-xl' />
               </Button>
               <div className='mb-8 xl:mb-0'>
-                <Socials containerStyles="flex gap-9" iconStyles="w-10 h-10 border border-destructive rounded-full 
+                <Socials containerStyles="flex gap-8" iconStyles="w-11 h-11 border-2 border-destructive rounded-full 
                 flex justify-center items-center text-destructive text-base hover:bg-destructive hover:text-primary
                 hover:transition-all duration-500" />
               </div>

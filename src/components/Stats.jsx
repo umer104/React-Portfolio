@@ -22,7 +22,7 @@ const stats = [
 
 function Stats() {
   return (
-    <section className='pt-3'>
+    <section className='pt-10'>
         <div className='container mx-auto'>
             <div className='flex flex-wrap gap-10 max-w-[80vw] xl:max-w-none'>
                 {stats.map((item, index) => {
