@@ -12,8 +12,8 @@ function Home() {
         <div className='flex flex-col xl:flex-row items-center justify-between'>
           <div className='text-center xl:text-left order-2 xl:order-none'>
             <span className='text-xl'>DevOps Engineer</span>
-            <h1 className='h1 mb-6'>
-              Hello I'm <br /> <span className='text-destructive'>Umer Akmal</span>
+            <h1 className='h2 mb-6'>
+              Hello I'm <br /> <span className='h1 text-destructive'>Umer Akmal</span>
             </h1>
             <p className='max-w-[500px] mb-9 text-white/80'>
               I excel at crafting elegant digital experienced and I am proficient

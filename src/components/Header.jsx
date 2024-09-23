@@ -17,7 +17,7 @@ function Header() {
             <div className="hidden xl:flex items-center gap-8">
                 <Nav />
                 <Link to="/contact">
-                 <Button>Hire me</Button>
+                 <Button variant="outline">Hire me</Button>
                 </Link>
             </div>
 

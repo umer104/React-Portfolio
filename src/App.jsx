@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'; 
-import Projects from './components/pages/Projects';
+import Services from './components/pages/Services';
 import Resume from './components/pages/Resume';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
@@ -20,7 +20,7 @@ function App({ childern }) {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
