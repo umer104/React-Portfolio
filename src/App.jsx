@@ -10,7 +10,6 @@ import Home from './components/pages/Home';
 import PageTransitions from './components/PageTransitions';
 import StairsAnimations from './components/StairsAnimations';
 
-
 function App({ childern }) {
   return (
     <div className="App">
