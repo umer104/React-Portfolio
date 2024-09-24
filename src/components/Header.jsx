@@ -6,12 +6,10 @@ import MobileNav from './MobileNav';
 
 function Header() {
   return (
-    <header className='py-6 xl:py-9 text-white'>
-        <div className="container mx-auto flex justify-between items-center">
+    <header className='text-white'>
+        <div className="container mx-auto my-0 flex justify-between items-center">
             <Link to='/'>
-             <h1 className='text-4xl font-semibold'>
-                Umer <span className='text-destructive'>.</span>
-             </h1>
+                <img src="assets/logo.png" alt="" className='h-[95px]' />
             </Link>
 
             <div className="hidden xl:flex items-center gap-8">

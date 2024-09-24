@@ -4,7 +4,6 @@ import { FiDownload } from 'react-icons/fi'
 import Socials from '../Socials'
 import Photo from '../Photo'
 import Stats from '../Stats'
-import { Link } from 'react-router-dom'
 
 function Home() {
   return (
