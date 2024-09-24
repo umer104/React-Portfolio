@@ -4,6 +4,7 @@ import { FiDownload } from 'react-icons/fi'
 import Socials from '../Socials'
 import Photo from '../Photo'
 import Stats from '../Stats'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -21,10 +22,16 @@ function Home() {
             </p>
 
             <div className='flex flex-col xl:flex-row items-center gap-8'>
-              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+            <a href='assets/resume/Umer_cv.pdf' download>
+              <Button
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2"
+              >
                 <span>Download CV</span>
                 <FiDownload className='text-xl' />
               </Button>
+            </a>
               <div className='mb-8 xl:mb-0'>
                 <Socials containerStyles="flex gap-8" iconStyles="w-11 h-11 border-2 border-destructive rounded-full 
                 flex justify-center items-center text-destructive text-base hover:bg-destructive hover:text-primary
