@@ -18,7 +18,7 @@ function Photo() {
              opacity: 1,
              transition: { delay: 2.4, duration: 0.3, ease: 'easeInOut' },
             }}
-            className='w-[248px] h-[248px] xl:w-[398px] xl:h-[398px] mix-blend-lighten absolute'>
+            className='w-[248px] h-[248px] xl:w-[400px] xl:h-[400px] mix-blend-lighten absolute'>
                 <Image 
                   src='/assets/pic.png'
                   priority
@@ -31,7 +31,7 @@ function Photo() {
 
             <motion.svg className="w-[250px] xl:w-[406px] h-[250px] xl:h-[406px]"
             fill="transparent"
-            viewBox="0 0 506 506"
+            viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
             >
               <motion.circle 
