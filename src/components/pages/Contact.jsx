@@ -74,7 +74,7 @@ function Contact() {
   
     setErrors({});
   
-    emailjs.send('service_8ichccc', 'template_yzuxapq', {
+    emailjs.send('**********', '************', {
       first_name: formData.firstName,
       last_name: formData.lastName,
       email: formData.email,
@@ -83,7 +83,7 @@ function Contact() {
       message: formData.message,
       fromEmail: 'umerakmalku@gmail.com',
       fromName: 'Umer Akmal'
-    }, 'vx6UJo9iBTXew3vf3')
+    }, '***************')
     .then((result) => {
       setSuccessMessage('Message sent successfully!');
       setTimeout(() => {
