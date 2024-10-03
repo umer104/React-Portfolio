@@ -35,6 +35,24 @@ const projects = [
     image: 'assets/work/pro3.png',
     github: 'https://github.com/umer104?tab=repositories',
   },
+  {
+    num: '04',
+    category: 'LAMP Automation',
+    title: 'Bash - LAMP Automation',
+    description: 'Created a Bash script to automate the setup and management of LAMP projects, enhancing efficiency in deploying Laravel applications with MariaDB and Httpd.',
+    stack: [{name: 'Linux'}, {name: 'Apache'}, {name: 'MySQL'}, {name: 'PHP'}],
+    image: 'assets/work/pro4.png',
+    github: 'https://github.com/umer104?tab=repositories',
+  },
+  {
+    num: '05',
+    category: 'React Portfolio',
+    title: 'React Portfolio',
+    description: 'I am creating an updated portfolio website using React.js, showcasing my projects and skills. The site features a modern design with ShadCN, Framer Motion for animations, and Tailwind CSS for styling.',
+    stack: [{name: 'React'}, {name: 'Tailwind CSS'}, {name: 'ShadCN'}, {name: 'Framer Motion'}],
+    image: 'assets/work/pro5.png',
+    github: 'https://github.com/umer104?tab=repositories',
+  },
 ]
 
 const Work = () => {

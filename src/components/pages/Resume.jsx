@@ -50,9 +50,9 @@ const experience = {
   description: 'As a System Administrator, I manage IT infrastructure. As a DevOps Engineer, I automate processes and CI/CD pipelines. As a Web Developer, I design responsive websites, and as an Automation Engineer, I enhance efficiency through automation.',
   items: [
     {
-      company: 'Mindflare Technologies',
-      position: 'Jr DevOps Engineer',
-      duration: '2024 - present',
+      company: 'KodeKloud',
+      position: 'KodeKloud Engineer',
+      duration: '2024 - present - Remote',
     },
     {
       company: 'Autotelematics Pvt Ltd',
@@ -61,8 +61,8 @@ const experience = {
     },
     {
       company: 'Al Nafi',
-      position: 'DevOps - Intership',
-      duration: '2023 - 2024',
+      position: 'DevOps Intership',
+      duration: '2023 - 2024 - Remote',
     },
     {
       company: 'Naveena Denim Mills',
@@ -75,22 +75,22 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My Education',
-  description: 'I completed the DevOps Engineer - Learning Path at KodeKloud (2024), a DevOps Diploma from Al Nafi (2023), a Cloud Cyber Security Diploma (2022), and a degree in Computer Information Technology from Aligarh Institute of Technology (2018-2021).',
+  description: 'I Started the Kodekloud Engineer - at KodeKloud (2024), a DevOps Diploma from Al Nafi (2023), a Cloud Cyber Security Diploma (2022), and a degree in Computer Information Technology from Aligarh Institute of Technology (2018-2021).',
   items: [
     {
       institute: 'KodeKloud',
-      position: 'DevOps Engineer - Learning Path',
-      duration: '2024',
+      position: 'KodeKloud Engineer - (Cloud, DevOps, SRE)',
+      duration: '2024 - present - Online',
     },
     {
       institute: 'Al Nafi',
       position: 'Development Operation\'s Diploma',
-      duration: '2023 - 2024',
+      duration: '2023 - 2024 - Online',
     },
     {
       institute: 'Al Nafi',
       position: 'Cloud Cyber Security Diploma',
-      duration: '2022 - 2023',
+      duration: '2022 - 2023 - Online',
     },
     {
       institute: 'Aligarh Institute of Technology',
